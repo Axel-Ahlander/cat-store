@@ -1,28 +1,41 @@
 .topnav {
-    background-color: #333;
+    background-color: #bbb1b1;
+
     overflow: hidden;
   }
   
   .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: #f7f5f5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    border-bottom: 2px solid black;
+    font-size: 14px;
   }
 
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: white;
+    opacity: 100%;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(99, 97, 97);
     color: white;
   }
 
   body {
     margin: 0;
+    background-color: rgb(210, 204, 204);
+    font-family: 'Libre Franklin', sans-serif;;
   }
+
+
+
+
+.libre-franklin-minfont {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
